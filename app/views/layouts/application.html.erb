@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Chappie Movie</title>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true  %>
   <%= javascript_include_tag 'http://code.jquery.com/jquery-1.11.3.min.js' %>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= csrf_meta_tags %>
@@ -15,7 +16,7 @@
 
 	<script type="text/javascript">
 		$(".warning").hide().show("slow");
+		$(".image").hide().fadeIn(4300);
 	</script>
-
 	</body>
 </html>

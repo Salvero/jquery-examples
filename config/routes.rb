@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  
+
   get 'welcome/index'
+  get '/character' => 'pages#character'
 
   root 'welcome#index'
 

@@ -15,27 +15,60 @@
  */
 
 body {
-  background: #525D68
+  background-image: url(/assets/bg_image.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .warning {
-  border: 5px solid #256DE1;
-  background-color: #000;
-  width: 200px;
+  background-color: #FFF;
+  width: 400px;
   margin: 25px auto 20px;
-  border-radius: 5px;
-  padding: 20px 10px;
+  border-radius: 2px;
+  padding: 18px 18px;
   text-align: center;
-  font-size: 32px
+  font-size: 25px
 }
 .warning span {
-  color: #f4f3ce;
+  color: #256DE1;
   font-family: sans-serif;
   font-weight: bold;
 }
 .image {
   position: absolute;
-  top: 25%;
+  top: 18%;
   width: 100%;
+  margin-left: 45px;
+}
+
+.title, .links {
+  color: #FFF;
+  font-size: 30px;
   text-align: center;
-  z-index: -1
+  margin-top: 80px;
+
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+  background-color: #FFF;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+.links a:hover {
+  color: #34F5FF;
+  background-color: #000;
+  transition: 0.55s ease;  
+}
+
+.button a {
+  float: left;
+  font-size: 18px;
+  margin-top: 400px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: #849AE7;
 }
