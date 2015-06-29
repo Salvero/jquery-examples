@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JqueryProject</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <title>Chappie Movie</title>
+  <%= javascript_include_tag 'http://code.jquery.com/jquery-1.11.3.min.js' %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+	<body>
 
-<%= yield %>
 
-</body>
+	<%= yield %>
+
+
+
+	<script type="text/javascript">
+		$(".warning").hide().show("slow");
+	</script>
+
+	</body>
 </html>
