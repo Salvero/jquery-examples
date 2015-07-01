@@ -16,7 +16,16 @@
 
 	<script type="text/javascript">
 		$(".warning").hide().show("slow");
-		$(".image").hide().fadeIn(4300);
+		$(".chappies").hide().fadeIn(3300);
+		$(".darth").hide().show("slow");
+		$(".darth").hide().fadeIn(950);
+
+		$(".spoiler span").hide();
+		$(".spoiler").append("<button>Reveal Spoiler!</button>");
+		$("button").click(function(){
+			$(this).prev().show();
+			$(this).remove();
+		});
 	</script>
 	</body>
 </html>

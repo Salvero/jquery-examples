@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
   get '/character' => 'pages#character'
+  get '/spoiler' => 'pages#spoiler'
 
   root 'welcome#index'
 

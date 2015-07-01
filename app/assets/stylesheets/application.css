@@ -33,7 +33,7 @@ body {
   font-family: sans-serif;
   font-weight: bold;
 }
-.image {
+.chappies {
   position: absolute;
   top: 18%;
   width: 100%;
@@ -61,14 +61,72 @@ body {
   transition: 0.55s ease;  
 }
 
-.button a {
+.links li {
+  list-style: none;
+  margin-top: 45px;
+}
+
+.back a {
   float: left;
   font-size: 18px;
-  margin-top: 400px;
+  margin-top: 465px;
   color: #FFF;
   text-decoration: none;
 }
 
-.button a:hover {
+.back a:hover {
   color: #849AE7;
+}
+
+.back2 a {
+  float: left;
+  font-size: 18px;
+  margin-top: 75px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.back2 a:hover {
+  color: #849AE7;
+}
+
+
+.darth {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  left: 40%;
+}
+
+button {
+  background: #FFF;
+  border-radius: 5px;
+  font-size: 28px;
+  border: none;
+  width: 350px;
+  padding: 15px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #FFF;
+  background-color: #B80520;
+  transition: 0.55s ease;
+  padding: 25px 15px;
+}
+
+.spoiler {
+  background-color: #FFF;
+  border-radius: 5px;
+  width: 350px;
+  margin: 55px;
+  padding: 15px 10px;
+  font-size: 22px;
+}
+
+.spoiler span {
+  color: #256DE1;
+  width: 450px;
+  padding: 25px 15px;
 }
