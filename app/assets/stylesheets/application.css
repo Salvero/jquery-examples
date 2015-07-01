@@ -19,11 +19,37 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+.title, .links {
+  color: #FFF;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+  background-color: #FFF;
+  padding: 15px 15px;
+  border-radius: 8px;
+}
+.links a:hover {
+  color: #34F5FF;
+  background-color: #000;
+  transition: 0.55s ease;  
+}
+
+.links li {
+  list-style: none;
+  margin-top: 45px;
+}
+
 .warning {
   background-color: #FFF;
   width: 400px;
   margin: 25px auto 20px;
-  border-radius: 2px;
+  border-radius: 8px;
   padding: 18px 18px;
   text-align: center;
   font-size: 25px
@@ -38,32 +64,6 @@ body {
   top: 18%;
   width: 100%;
   margin-left: 45px;
-}
-
-.title, .links {
-  color: #FFF;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 80px;
-
-}
-
-.links a {
-  text-decoration: none;
-  color: #000;
-  background-color: #FFF;
-  padding: 10px 10px;
-  border-radius: 15px;
-}
-.links a:hover {
-  color: #34F5FF;
-  background-color: #000;
-  transition: 0.55s ease;  
-}
-
-.links li {
-  list-style: none;
-  margin-top: 45px;
 }
 
 .back a {
