@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'welcome/index'
   get '/character' => 'pages#character'
   get '/spoiler' => 'pages#spoiler'
+  get '/galleries' => 'pages#galleries'
 
   root 'welcome#index'
 
